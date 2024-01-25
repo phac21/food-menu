@@ -1,9 +1,12 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import MenuHamburguer from '../../components/MenuHamburguer';
 
 const Menu: React.FC = () => {
-  return <div />;
+  return (
+  <div>
+    <MenuHamburguer/>
+  </div>
+  )
 }
 
 export default Menu;
