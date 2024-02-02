@@ -1,12 +1,13 @@
 import React from 'react';
 import MenuHamburguer from '../../components/MenuHamburguer';
 import { Container } from './styles';
+import banner from'../../assets/banner.svg';
 
 const Menu: React.FC = () => {
   return (
   <Container>
     <MenuHamburguer/>
-    <img src="https://preodemo.gumlet.io/usr/venue/7602/web/646fbf3abf9d0.png" alt="" />
+    <img src={banner} alt="banner contendo hamburguer" />
   </Container>
   )
 }
